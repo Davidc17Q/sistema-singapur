@@ -1,0 +1,1023 @@
+{
+ "tema": "atracciones",
+ "probado": "2026-11-01",
+ "fuentes": [
+  {
+   "id": "F02",
+   "nombre": "Tourist Attractions",
+   "entidad": "Singapore Tourism Board (STB)",
+   "url": "https://data.gov.sg/datasets/d_0f2f47515425404e6c9d2a040dd87354/view",
+   "licencia": "Singapore Open Data Licence version 1.0",
+   "estado": "integrada",
+   "vigencia": "Registros editados por última vez en 2018",
+   "probado": "2026-11-01"
+  }
+ ],
+ "cifras": {
+  "total_atracciones": {
+   "valor": 107,
+   "unidad": "atracciones",
+   "vigencia": "registros editados hasta 2018",
+   "fuente": "F02"
+  },
+  "zonas_con_atraccion": {
+   "valor": 26,
+   "unidad": "áreas de 55",
+   "vigencia": "registros editados hasta 2018",
+   "fuente": "F02"
+  }
+ },
+ "por_zona": {
+  "BOON LAY": 1,
+  "BUKIT BATOK": 1,
+  "BUKIT MERAH": 11,
+  "CENTRAL WATER CATCHMENT": 4,
+  "CHANGI": 1,
+  "DOWNTOWN CORE": 29,
+  "GEYLANG": 1,
+  "HOUGANG": 1,
+  "JURONG EAST": 2,
+  "KALLANG": 1,
+  "LIM CHU KANG": 1,
+  "MARINA SOUTH": 2,
+  "MARINE PARADE": 3,
+  "MUSEUM": 7,
+  "NORTH-EASTERN ISLANDS": 2,
+  "NOVENA": 1,
+  "ORCHARD": 1,
+  "OUTRAM": 11,
+  "QUEENSTOWN": 4,
+  "RIVER VALLEY": 1,
+  "ROCHOR": 9,
+  "SINGAPORE RIVER": 2,
+  "SOUTHERN ISLANDS": 6,
+  "SUNGEI KADUT": 1,
+  "TANGLIN": 1,
+  "WESTERN WATER CATCHMENT": 1
+ },
+ "filas": [
+  {
+   "nombre": "Adventure Cove Waterpark™ Singapore",
+   "direccion": "8 Sentosa Gateway, Sentosa Island",
+   "descripcion_corta": "Adventure Cove Waterpark™ Singapore at Resorts World™ Sentosa promises a day of wet and wild fun in the sun.",
+   "zona": "SOUTHERN ISLANDS",
+   "lon": 103.81953,
+   "lat": 1.257,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Albert Mall Trishaw Park",
+   "direccion": "Queen Street",
+   "descripcion_corta": null,
+   "zona": "ROCHOR",
+   "lon": 103.85348,
+   "lat": 1.29955,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Armenian Church in Singapore",
+   "direccion": "60 Hill Street",
+   "descripcion_corta": "The Armenian Church is the oldest Christian church in Singapore and an architectural masterpiece from the early 19th century.",
+   "zona": "MUSEUM",
+   "lon": 103.84966,
+   "lat": 1.293,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "ArtScience Museum Singapore",
+   "direccion": "6 Bayfront Ave",
+   "descripcion_corta": "Catch world-class touring exhibitions at the ArtScience Museum at Marina Bay Sands.",
+   "zona": "DOWNTOWN CORE",
+   "lon": 103.85929,
+   "lat": 1.286,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Asian Civilisations Museum & Singapore Museum",
+   "direccion": "1 Empress Place",
+   "descripcion_corta": "Housed in a historical building by the Singapore River, this museum is a microcosm of Asian civilisations spread over 11 galleries.",
+   "zona": "DOWNTOWN CORE",
+   "lon": 103.85172,
+   "lat": 1.287,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Bras Basah.Bugis, Singapore Cultural District",
+   "direccion": "220 Victoria Street",
+   "descripcion_corta": "The Bras Basah.Bugis Precinct is the vibrant arts and cultural district in the heart of Singapore's civic centre, and home to top museums and monuments.",
+   "zona": "DOWNTOWN CORE",
+   "lon": 103.85624,
+   "lat": 1.301,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Buddha Tooth Relic Temple & Museum in Singapore",
+   "direccion": "288 South Bridge Road",
+   "descripcion_corta": "The Buddha Tooth Relic Temple & Museum is a Tang-styled Chinese Buddhist temple in Chinatown that gets its name from the Sacred Buddha Tooth Relic.",
+   "zona": "OUTRAM",
+   "lon": 103.84438,
+   "lat": 1.282,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "CHIJMES Singapore",
+   "direccion": "30 Victoria Street",
+   "descripcion_corta": "Who would have thought a former school would make such a graceful transition? As a lifestyle and entertainment complex, CHIJMES soars high above the rest.",
+   "zona": "DOWNTOWN CORE",
+   "lon": 103.85168,
+   "lat": 1.295,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Cable Car Singapore & Mount Faber",
+   "direccion": "109 Mount Faber Road",
+   "descripcion_corta": "Getting to the hilltop dining and entertainment spot at Mount Faber by cable car is half the fun.",
+   "zona": "BUKIT MERAH",
+   "lon": 103.81921,
+   "lat": 1.271,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Capitol Building Singapore",
+   "direccion": "11 Stamford Road",
+   "descripcion_corta": "Now undergoing massive restoration works, Capitol Building will emerge as Singapore’s premier entertainment hub next year.",
+   "zona": "DOWNTOWN CORE",
+   "lon": 103.85157,
+   "lat": 1.294,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Changi Museum Singapore",
+   "direccion": "1000 Upper Changi Road North",
+   "descripcion_corta": "Changi Museum provides an emotional exploration of Singapore’s wartime history during the Japanese Occupation.",
+   "zona": "CHANGI",
+   "lon": 103.97403,
+   "lat": 1.362,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Chek Jawa",
+   "direccion": "Chek Jawa, Pulau Ubin",
+   "descripcion_corta": "A world away from shopping malls and glitzy hotels, the natural wonder of Chek Jawa is one of Singapore’s richest eco-systems.",
+   "zona": "NORTH-EASTERN ISLANDS",
+   "lon": 103.96371,
+   "lat": 1.408,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Chinatown Food Street",
+   "direccion": "Smith Street",
+   "descripcion_corta": null,
+   "zona": "OUTRAM",
+   "lon": 103.84379,
+   "lat": 1.28255,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Chinatown Heritage Centre, Singapore",
+   "direccion": "48 Pagoda Street",
+   "descripcion_corta": "At the Chinatown Heritage Centre, experience how Singapore’s early Chinese migrants once lived and learn more about local Chinese culture.",
+   "zona": "OUTRAM",
+   "lon": 103.84435,
+   "lat": 1.284,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Chinatown Singapore: History & Culture",
+   "direccion": "2 Banda Street",
+   "descripcion_corta": "Singapore’s legendary Chinatown is a bustling mix of old and new, filled with traditional shops and night markets as well as cool stores and cafes.",
+   "zona": "OUTRAM",
+   "lon": 103.84377,
+   "lat": 1.282,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Chinese Garden Singapore",
+   "direccion": "1 Chinese Garden Road",
+   "descripcion_corta": "A tranquil patch of imperial China in the west of Singapore is pleasant respite from the bustle of the city.",
+   "zona": "JURONG EAST",
+   "lon": 103.73,
+   "lat": 1.339,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Chinese Heritage Centre, Singapore",
+   "direccion": "12 Nanyang Drive",
+   "descripcion_corta": "The Chinese Heritage Centre in Singapore is where you can find out more about overseas Chinese communities and their culture.",
+   "zona": "WESTERN WATER CATCHMENT",
+   "lon": 103.68398,
+   "lat": 1.344,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Civic District, Singapore",
+   "direccion": "150 North Bridge Road",
+   "descripcion_corta": "The Civic District is where Singapore’s historical, architectural and cultural heritage starts.",
+   "zona": "DOWNTOWN CORE",
+   "lon": 103.85222,
+   "lat": 1.293,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Contemporary Arts Center",
+   "direccion": "43 Malan Road",
+   "descripcion_corta": "The Contemporary Arts Center at the Nanyang Technological University uses a variety of medium to explore contemporary art.",
+   "zona": "BUKIT MERAH",
+   "lon": 103.8045,
+   "lat": 1.275,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Dalhousie Obelisk, a Singapore Landmark",
+   "direccion": "1 Empress Place",
+   "descripcion_corta": "Dalhousie Obelisk at Empress Place is a famous architectural landmark in Singapore.",
+   "zona": "DOWNTOWN CORE",
+   "lon": 103.85238,
+   "lat": 1.287,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "East Coast Park Singapore",
+   "direccion": "Along East Coast Parkway and East Coast Park Service Road",
+   "descripcion_corta": "With so many attractions packed into the 15-km stretch of beaches at East Coast Park, you’ll never run out of things to do.",
+   "zona": "MARINE PARADE",
+   "lon": 103.91219,
+   "lat": 1.301,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Esplanade Theatre",
+   "direccion": "1 Esplanade Drive",
+   "descripcion_corta": "The Esplanade is boldly designed performing arts centre that has become a memorable part of Singapore’s skyline.",
+   "zona": "DOWNTOWN CORE",
+   "lon": 103.85528,
+   "lat": 1.29,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Esplanade Theatres on the Bay",
+   "direccion": "1 Esplanade Drive",
+   "descripcion_corta": "Esplanade Theatres on the Bay is the country’s premier arts centre as well as an iconic landmark on the city’s skyline.",
+   "zona": "DOWNTOWN CORE",
+   "lon": 103.85528,
+   "lat": 1.29,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Eurasian Heritage Centre: Singapore Attraction",
+   "direccion": "139 Ceylon Road",
+   "descripcion_corta": "This engaging heritage attraction takes you through the history and culture of the Eurasian community in Singapore.",
+   "zona": "GEYLANG",
+   "lon": 103.89942,
+   "lat": 1.31,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Fort Canning Park",
+   "direccion": "Bounded by Hill Street, Canning Rise, Clemenceau Avenue and River Valley Road",
+   "descripcion_corta": "Whether you’re a history buff, music fan or nature lover, this historic Fort Canning Park has something for everyone.",
+   "zona": "MUSEUM",
+   "lon": 103.84651,
+   "lat": 1.295,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Fuk Tak Chi Museum & Places of Interest",
+   "direccion": "76 Telok Ayer Street",
+   "descripcion_corta": "Fuk Tak Chi Museum was once the oldest Chinese temple in Singapore and is an elegant example of restored architecture in Chinatown.",
+   "zona": "OUTRAM",
+   "lon": 103.84887,
+   "lat": 1.283,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Gardens by the Bay",
+   "direccion": "18 Marina Gardens Drive",
+   "descripcion_corta": "Biodomes, baobabs and the blossoming bounty of every conceivable plant will bowl you over at Gardens by the Bay.",
+   "zona": "MARINA SOUTH",
+   "lon": 103.86361,
+   "lat": 1.282,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Gillman Barracks – YourSingapore",
+   "direccion": "9 Lock Road",
+   "descripcion_corta": "Gillman Barracks Singapore is Asia’s vibrant new destination for the creation, exhibition and discussion of contemporary art.",
+   "zona": "BUKIT MERAH",
+   "lon": 103.80459,
+   "lat": 1.278,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Hajjah Fatimah Mosque",
+   "direccion": "4001 Beach Road",
+   "descripcion_corta": "With its tilting European-style minaret and Chinese tiling, the Hajjah Fatimah Mosque is one of the most unique mosques in Singapore.",
+   "zona": "KALLANG",
+   "lon": 103.86285,
+   "lat": 1.303,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "HarbourFront, Singapore",
+   "direccion": "81 Telok Blangah Road",
+   "descripcion_corta": "HarbourFront is the place to go if you're hopping on a cruise from Singapore, taking a ferry to the outlying islands or simply want to eat, shop or relax.",
+   "zona": "BUKIT MERAH",
+   "lon": 103.82057,
+   "lat": 1.265,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Haw Par Villa: Singapore Theme Park",
+   "direccion": "262 Pasir Panjang Road",
+   "descripcion_corta": "A visit to the Haw Par Villa theme park is an unforgettable journey into Chinese folklore and mythology.",
+   "zona": "QUEENSTOWN",
+   "lon": 103.78314,
+   "lat": 1.286,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Henderson Waves Bridge",
+   "direccion": "Henderson Road",
+   "descripcion_corta": "With the Henderson Waves bridge, form meets function to stunning effect.",
+   "zona": "BUKIT MERAH",
+   "lon": 103.81525,
+   "lat": 1.276,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Hong San See Temple Singapore",
+   "direccion": "31 Mohamed Sultan Road",
+   "descripcion_corta": "Dancing dragons and prancing phoenixes are just some of the visual delights to catch at the exquisitely restored Hong San See temple.",
+   "zona": "RIVER VALLEY",
+   "lon": 103.84122,
+   "lat": 1.293,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "HortPark",
+   "direccion": "33 Hyderabad Road",
+   "descripcion_corta": "HortPark is a gorgeous collection of stunning gardens and plants that will make you forget about the bustle of city.",
+   "zona": "QUEENSTOWN",
+   "lon": 103.79972,
+   "lat": 1.279,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Indian National Army (INA) Monument in Singapore",
+   "direccion": "Esplanade Park",
+   "descripcion_corta": "The Indian National Army (INA) Monument at Esplanade Park is a memorial that was built in 1995 to mark the 50th anniversary of the end of World War II.",
+   "zona": "DOWNTOWN CORE",
+   "lon": 103.85422,
+   "lat": 1.29,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Institute of Contemporary Arts Singapore",
+   "direccion": "LASALLE College of the Arts, 1 McNally Street",
+   "descripcion_corta": "Housed in a tertiary arts college, the Institute of Contemporary Arts Singapore will help you deepen your appreciation for experimental artworks.",
+   "zona": "ROCHOR",
+   "lon": 103.8516,
+   "lat": 1.303,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Jamae Mosque (Masjid Chulia) Singapore",
+   "direccion": "218 South Bridge Road",
+   "descripcion_corta": "Jamae Mosque (or Masjid Chulia) is one of Singapore’s oldest mosques and a prominent landmark in Chinatown since the 1820s.",
+   "zona": "OUTRAM",
+   "lon": 103.84554,
+   "lat": 1.283,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Joo Chiat/Katong: Singapore Peranakan Neighbourhood",
+   "direccion": "113 East Coast Road",
+   "descripcion_corta": "Discover Peranakan culture as you stroll past heritage shophouses, quaint stores and eateries in Joo Chiat/Katong, a charming corner of eastern Singapore.",
+   "zona": "MARINE PARADE",
+   "lon": 103.90448,
+   "lat": 1.306,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Jurong Bird Park, Singapore: Attractions & Things to Do",
+   "direccion": "2 Jurong Hill",
+   "descripcion_corta": "Jurong Bird Park has almost every species to impress avian lovers, along with fun exhibits, interactive shows, and of course, its charming residents.",
+   "zona": "BOON LAY",
+   "lon": 103.70644,
+   "lat": 1.319,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Kampong Glam & Malay Culture in Singapore",
+   "direccion": "3 Muscat Street",
+   "descripcion_corta": "Discover the heart of Singapore’s Malay community, living traditions, excellent eateries and trendy shops in vibrant Kampong Glam.",
+   "zona": "ROCHOR",
+   "lon": 103.8595,
+   "lat": 1.302,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Katong Antique House Singapore: Peranakan Heritage",
+   "direccion": "208 East Coast Road",
+   "descripcion_corta": "Step into this fully restored bona fide Peranakan family home, and admire the many antiques and heirlooms worthy of any museum collection.",
+   "zona": "MARINE PARADE",
+   "lon": 103.90714,
+   "lat": 1.307,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Kranji War Memorial Landmark in Singapore",
+   "direccion": "9 Woodlands Road",
+   "descripcion_corta": "The Kranji War Memorial in Singapore honours the men and women from the Commonwealth who died in the line of duty during World War II.",
+   "zona": "SUNGEI KADUT",
+   "lon": 103.75749,
+   "lat": 1.419,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Kreta Ayer Square",
+   "direccion": "Banda Street",
+   "descripcion_corta": null,
+   "zona": "OUTRAM",
+   "lon": 103.84359,
+   "lat": 1.2812,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Kusu Island, Singapore",
+   "direccion": "Kusu Island",
+   "descripcion_corta": "Kusu Island lies to the south of Singapore, and has a wonderful mix of local heritage and beach activities.",
+   "zona": "SOUTHERN ISLANDS",
+   "lon": 103.86052,
+   "lat": 1.223,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Labrador Nature Reserve",
+   "direccion": "Labrador Villa Road",
+   "descripcion_corta": "With its rich biodiversity and war relics, nature lovers and history enthusiasts will find plenty to do at Labrador Nature Reserve.",
+   "zona": "BUKIT MERAH",
+   "lon": 103.80194,
+   "lat": 1.266,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Lasalle College of the Arts",
+   "direccion": "1 McNally Street",
+   "descripcion_corta": "Lasalle College of the Arts evokes awe with its bold, graphic lines and stunning reinterpretation of nature.",
+   "zona": "ROCHOR",
+   "lon": 103.8516,
+   "lat": 1.303,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Lau Pa Sat Singapore",
+   "direccion": "18 Raffles Quay",
+   "descripcion_corta": "The historic market Lau Pa Sat offers a winning combination of graceful colonial architecture, a longstanding heritage and delicious food.",
+   "zona": "DOWNTOWN CORE",
+   "lon": 103.85044,
+   "lat": 1.281,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Lim Bo Seng Memorial",
+   "direccion": "Esplanade Park, Connaught Drive",
+   "descripcion_corta": "The gazetted Lim Bo Seng Memorial at Esplanade Park commemorates one of Singapore’s heroes from World War II.",
+   "zona": "DOWNTOWN CORE",
+   "lon": 103.85303,
+   "lat": 1.288,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Little India Singapore: History & Culture",
+   "direccion": "60 Bukit Timah Road",
+   "descripcion_corta": "Little India is a buzzing historic district that shows off the best of Singapore’s Indian community, from vibrant culture to ethnic-inspired shopping.",
+   "zona": "ROCHOR",
+   "lon": 103.84982,
+   "lat": 1.307,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "MINT Museum of Toys Singapore & Toy Museum",
+   "direccion": "26 Seah Street",
+   "descripcion_corta": "Singapore's MINT Museum of Toys' vast collection of vintage toys will delight both kids and adults.",
+   "zona": "DOWNTOWN CORE",
+   "lon": 103.85439,
+   "lat": 1.296,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "MacRitchie Singapore & Singapore Nature Reserve",
+   "direccion": "MacRitchie Reservoir Park",
+   "descripcion_corta": "The attractions around MacRitchie Reservoir caters to fitness fanatics, water sports enthusiasts and nature lovers.",
+   "zona": "CENTRAL WATER CATCHMENT",
+   "lon": 103.82235,
+   "lat": 1.345,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Maghain Aboth Synagogue",
+   "direccion": "24/26 Waterloo Street",
+   "descripcion_corta": "The simple exterior of the Maghain Aboth Synagogue gives no indication of its richly elegant interiors.",
+   "zona": null,
+   "lon": 103.85081,
+   "lat": 1.298,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Malay Heritage Centre, Singapore",
+   "direccion": "85 Sultan Gate",
+   "descripcion_corta": "The Malay Heritage Centre is a must-visit if you’re keen on learning about the rich heritage and culture of Singapore’s Malay community.",
+   "zona": "ROCHOR",
+   "lon": 103.85986,
+   "lat": 1.303,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Marina Barrage",
+   "direccion": "8 Marina Gardens Drive",
+   "descripcion_corta": "The Marina Barrage not only supplies water to Singaporeans and helps alleviate floods but also doubles up as a place for family fun.",
+   "zona": "MARINA SOUTH",
+   "lon": 103.87159,
+   "lat": 1.281,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Marina Bay Sands, Singapore",
+   "direccion": "10 Bayfront Avenue",
+   "descripcion_corta": "Marina Bay Sands® boasts luxury accommodations, upscale shopping and an infinity pool with unparalleled views of the city.",
+   "zona": "DOWNTOWN CORE",
+   "lon": 103.85899,
+   "lat": 1.284,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Marina Bay Sands®",
+   "direccion": "10 Bayfront Avenue",
+   "descripcion_corta": "Superlatives naturally spring to mind when beholding Marina Bay Sands®. Its bold, swooping curves, steep slopes, and soaring spaces defy gravity and evoke awe.",
+   "zona": "DOWNTOWN CORE",
+   "lon": 103.86081,
+   "lat": 1.283,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Marina Bay Sands® SkyPark",
+   "direccion": "Level 57, 10 Bayfront Avenue",
+   "descripcion_corta": "The Marina Bay Sands<sup>®</sup> SkyPark is a roof like no other, perched 200 metres in the air with an infinity pool and observation deck in the clouds.",
+   "zona": "DOWNTOWN CORE",
+   "lon": 103.86081,
+   "lat": 1.283,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Marina Bay Singapore: Attractions & Things to do",
+   "direccion": "11 Marina Boulevard",
+   "descripcion_corta": "Marina Bay represents all things modern and super-stylish in Singapore, from trendy dining destinations to fun leisure spots.",
+   "zona": "DOWNTOWN CORE",
+   "lon": 103.85645,
+   "lat": 1.28,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Merlion Park, Singapore: Attractions & Things to Do",
+   "direccion": "One Fullerton",
+   "descripcion_corta": "Merlion Park houses a Singapore icon that is half-fish and half-lion, and famous throughout the world.",
+   "zona": "DOWNTOWN CORE",
+   "lon": 103.85455,
+   "lat": 1.287,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "NUS Baba House - Singapore Peranakan Architecture",
+   "direccion": "157 Neil Road",
+   "descripcion_corta": "NUS Baba House is a heritage house that gives a rich look at Singapore's Peranakan community, thanks to beautifully preserved architecture and artefacts.",
+   "zona": "BUKIT MERAH",
+   "lon": 103.83731,
+   "lat": 1.277,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "NUS University Museum, Singapore",
+   "direccion": "50 Kent Ridge Crescent, National University of Singapore",
+   "descripcion_corta": "Get a deeper insight into Asian art and artefacts at NUS Museum at Singapore’s leading university.",
+   "zona": "QUEENSTOWN",
+   "lon": 103.77269,
+   "lat": 1.302,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "National Design Centre, Singapore",
+   "direccion": "111 Middle Road",
+   "descripcion_corta": "The National Design Centre is a design lover’s dream destination.",
+   "zona": "ROCHOR",
+   "lon": 103.85351,
+   "lat": 1.299,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "National Gallery Singapore",
+   "direccion": "1 St Andrew's Road",
+   "descripcion_corta": "Take in the region’s newest and largest museum of modern Singapore and Southeast Asian art housed within two of Singapore’s awe-inspiring national monuments.",
+   "zona": "DOWNTOWN CORE",
+   "lon": 103.85136,
+   "lat": 1.29,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "National Museum of Singapore",
+   "direccion": "93 Stamford Road",
+   "descripcion_corta": "The National Museum of Singapore is a progressive showcase of the country’s history and culture.",
+   "zona": "MUSEUM",
+   "lon": 103.84883,
+   "lat": 1.297,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Night Safari, Singapore",
+   "direccion": "80 Mandai Lake Road",
+   "descripcion_corta": "Head to the Night Safari for an after dark visit to the weird and wonderful creatures of the night.",
+   "zona": "CENTRAL WATER CATCHMENT",
+   "lon": 103.78806,
+   "lat": 1.402,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Old Ford Factory Singapore Museum",
+   "direccion": "351 Upper Bukit Timah Road",
+   "descripcion_corta": "The Old Ford Factory is a repository of memories about the hardships endured during the Japanese Occupation of Singapore.",
+   "zona": "BUKIT BATOK",
+   "lon": 103.76883,
+   "lat": 1.352,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Old Supreme Court Singapore",
+   "direccion": "1 St Andrew's Road",
+   "descripcion_corta": "Due to reopen as the National Gallery Singapore, the Old Supreme Court is in itself a masterpiece of classical art.",
+   "zona": "DOWNTOWN CORE",
+   "lon": 103.85128,
+   "lat": 1.29,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Orchard Road, Singapore: Asia's Most Famous Shopping Street",
+   "direccion": "437 Orchard Road",
+   "descripcion_corta": "Don’t miss a trip to Orchard Road. Asia’s most famous shopping street is home to fashion favourites, specialist stores and loads of other lifestyle choices.",
+   "zona": "ORCHARD",
+   "lon": 103.83249,
+   "lat": 1.304,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "PARKROYAL on Pickering",
+   "direccion": "3 Upper Pickering Street",
+   "descripcion_corta": "PARKROYAL on Pickering is a luxurious garden oasis in downtown Singapore.",
+   "zona": "SINGAPORE RIVER",
+   "lon": 103.84652,
+   "lat": 1.286,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Peranakan Museum Singapore: History & Culture",
+   "direccion": "39 Armenian Street",
+   "descripcion_corta": "At the Peranakan Museum, get to know Singapore’s vibrant Peranakan community and its eclectic culture and history with fun and interactive exhibits.",
+   "zona": "MUSEUM",
+   "lon": 103.8492,
+   "lat": 1.294,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Pinnacle@Duxton",
+   "direccion": "1 Cantonment Road",
+   "descripcion_corta": "With its lofty towers and dizzying sky gardens, the Pinnacle at Duxton takes residential living to soaring new heights.",
+   "zona": "OUTRAM",
+   "lon": 103.84142,
+   "lat": 1.275,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Pulau Ubin & Singapore Islands",
+   "direccion": "Pulau Ubin",
+   "descripcion_corta": "Hop on a bumboat to the island of Pulau Ubin if you want a taste of nature and rustic village life, away from the hustle and bustle of Singapore.",
+   "zona": "NORTH-EASTERN ISLANDS",
+   "lon": 103.95926,
+   "lat": 1.414,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Raffles Singapore",
+   "direccion": "1 Beach Road",
+   "descripcion_corta": "Sip a Singapore Sling beneath the whirling fans at the Long Bar, and let the tranquil charms of Raffles Singapore bring you back into another era.",
+   "zona": "DOWNTOWN CORE",
+   "lon": 103.85404,
+   "lat": 1.296,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Raffles Statue – Sir Stamford Raffles Landing Site",
+   "direccion": "Raffles Landing Site , 59 Boat Quay",
+   "descripcion_corta": "Raffles Statue depicts the founder of modern Singapore, Sir Stamford Raffles. Two statues exist today, at the Raffles Landing Site and Empress Place.",
+   "zona": "DOWNTOWN CORE",
+   "lon": 103.85084,
+   "lat": 1.288,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Red Dot Design Museum, Singapore",
+   "direccion": "28 Maxwell Road, Red Dot Traffic",
+   "descripcion_corta": "The Red Dot Design Museum holds more than 1,000 products and items that are winners for their good design.",
+   "zona": "DOWNTOWN CORE",
+   "lon": 103.84572,
+   "lat": 1.278,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Reflections at Bukit Chandu: Singapore War Memorial",
+   "direccion": "31-K Pepys Road",
+   "descripcion_corta": "Reflections at Bukit Chandu relives the Battle of Pasir Panjang, one of the fiercest battles fought against the Japanese in Singapore during World War II.",
+   "zona": "QUEENSTOWN",
+   "lon": 103.79433,
+   "lat": 1.28,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Resorts World Sentosa, Singapore",
+   "direccion": "8 Sentosa Gateway, Sentosa Island",
+   "descripcion_corta": "Whether it’s themes parks, world-class performances or celebrity restaurants, you’ll never run out of things to do at Resorts World™ Sentosa.",
+   "zona": "SOUTHERN ISLANDS",
+   "lon": 103.82033,
+   "lat": 1.257,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "River Safari Singapore",
+   "direccion": "80 Mandai Lake Road",
+   "descripcion_corta": "The River Safari Singapore is a fascinating new wildlife park that recreates life in and around the world’s rivers.",
+   "zona": "CENTRAL WATER CATCHMENT",
+   "lon": 103.78942,
+   "lat": 1.404,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "S.E.A. Aquarium",
+   "direccion": "8 Sentosa Gateway, Sentosa Island",
+   "descripcion_corta": "Immerse yourself underwater at the S.E.A. Aquarium™ and take a look into the planet’s largest window to the ocean.",
+   "zona": "SOUTHERN ISLANDS",
+   "lon": 103.81949,
+   "lat": 1.257,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "SAM at 8Q & Singapore Art Museum",
+   "direccion": "8 Queen Street",
+   "descripcion_corta": "SAM at 8Q at the Singapore Art Museum showcases the works of Singapore contemporary artists.",
+   "zona": null,
+   "lon": 103.85168,
+   "lat": 1.297,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "SIT Flats Singapore",
+   "direccion": "Seng Poh Road and Tiong Bahru Road",
+   "descripcion_corta": "The Art Deco elegance of the flats in Tiong Bahru speak of the richness of a vanished world.",
+   "zona": "BUKIT MERAH",
+   "lon": 103.8336,
+   "lat": 1.284,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Sentosa Island, Singapore: Leisure & Attractions",
+   "direccion": "33 Allanbrooke Road",
+   "descripcion_corta": "Sentosa Island is Singapore’s favourite leisure destination, with more than 500 hectares filled with exciting attractions, golden beaches, luxe retreats and the country’s first integrated resort, Resorts World Sentosa.",
+   "zona": "SOUTHERN ISLANDS",
+   "lon": 103.82809,
+   "lat": 1.249,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Shophouses",
+   "direccion": null,
+   "descripcion_corta": "Few buildings epitomise our culture as fully as the shophouse, with its surprisingly harmonious mix of diverse design elements.",
+   "zona": "BUKIT MERAH",
+   "lon": 103.83734,
+   "lat": 1.277,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Singapore Art Museum",
+   "direccion": "71 Bras Basah Road",
+   "descripcion_corta": "The Singapore Art Museum houses the world’s largest public collection of contemporary Southeast Asian artworks.",
+   "zona": "MUSEUM",
+   "lon": 103.85107,
+   "lat": 1.297,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Singapore Botanic Gardens",
+   "direccion": "1 Cluny Road",
+   "descripcion_corta": "Singapore’s Botanic Gardens is a treasure trove for plant lovers, or those who simply want to have a good time outdoors.",
+   "zona": "TANGLIN",
+   "lon": 103.81591,
+   "lat": 1.314,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Singapore City Gallery",
+   "direccion": "45 Maxwell Road, The URA Centre",
+   "descripcion_corta": "The Singapore City Gallery tells the story of the city’s physical transformation.",
+   "zona": "DOWNTOWN CORE",
+   "lon": 103.84513,
+   "lat": 1.28,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Singapore Coins and Notes Museum & Museum Singapore",
+   "direccion": "40 Pagoda Street, Level 1",
+   "descripcion_corta": "The Singapore Coins and Notes Museum tells the story of Singapore through the currencies it has used over the years.",
+   "zona": "OUTRAM",
+   "lon": 103.84452,
+   "lat": 1.283,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Singapore Flyer",
+   "direccion": "30 Raffles Avenue",
+   "descripcion_corta": "The Singapore Flyer not only offers you stunning views of the city, but is one of the city’s most recognisable architectural icons.",
+   "zona": "DOWNTOWN CORE",
+   "lon": 103.86314,
+   "lat": 1.289,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Singapore Garden & Singapore Park",
+   "direccion": "Henderson Road, Mount Faber Park, Telok Blangah Hill Park",
+   "descripcion_corta": "The Southern Ridges is a 10-km stretch of connecting trails which lets you walk among the trees to observe a wide variety of flora and fauna in their natural habitat.",
+   "zona": "BUKIT MERAH",
+   "lon": 103.81759,
+   "lat": 1.281,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Singapore Philatelic Museum",
+   "direccion": "23-B Coleman Street",
+   "descripcion_corta": "The Philatelic Museum offers visitors postage stamp-sized windows into Singapore and the rest of the world.",
+   "zona": "MUSEUM",
+   "lon": 103.8487,
+   "lat": 1.293,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Singapore River: History & Culture Tours",
+   "direccion": "10 Eu Tong Sen Street",
+   "descripcion_corta": "Get to know the historic Singapore River and its famous quays: Boat Quay, Clarke Quay and Robertson Quay. This, after all, is where it all began.",
+   "zona": "SINGAPORE RIVER",
+   "lon": 103.84676,
+   "lat": 1.288,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Singapore Science Centre",
+   "direccion": "15 Science Centre Road",
+   "descripcion_corta": "Singapore Science Centre holds the largest collection of educational materials devoted to science in the country.",
+   "zona": "JURONG EAST",
+   "lon": 103.73587,
+   "lat": 1.333,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Singapore Zoo: Attractions & Things to Do",
+   "direccion": "80 Mandai Lake Road",
+   "descripcion_corta": "Catch animals in their natural habitats at the award-winning Singapore Zoo.",
+   "zona": "CENTRAL WATER CATCHMENT",
+   "lon": 103.79302,
+   "lat": 1.404,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Sri Mariamman Temple: Hindu Temple in Singapore",
+   "direccion": "244 South Bridge Road",
+   "descripcion_corta": "Sri Mariamman Temple, located in Chinatown, is the oldest Hindu temple in Singapore.",
+   "zona": "OUTRAM",
+   "lon": 103.84538,
+   "lat": 1.282,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Sri Veeramakaliamman Temple: Hindu Temple in Singapore",
+   "direccion": "141 Serangoon Road",
+   "descripcion_corta": "Sri Veeramakaliamman Temple is one of Singapore’s oldest Hindu temples, in the heart of Little India.",
+   "zona": "ROCHOR",
+   "lon": 103.85258,
+   "lat": 1.308,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "St Andrew’s Cathedral- Singapore Architecture Landmark",
+   "direccion": "11 St Andrew's Road",
+   "descripcion_corta": "St Andrew's Cathedral is Singapore's largest cathedral and a stellar example of colonial-era architecture and heritage.",
+   "zona": "DOWNTOWN CORE",
+   "lon": 103.85231,
+   "lat": 1.292,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Sultan Mosque (Masjid Sultan) Singapore",
+   "direccion": "3 Muscat Street",
+   "descripcion_corta": "The impressive Sultan Mosque (also known as Masjid Sultan) in historic Kampong Glam is the focal point for Singapore’s Muslim community.",
+   "zona": "ROCHOR",
+   "lon": 103.85917,
+   "lat": 1.302,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Sun Yat Sen Memorial Hall",
+   "direccion": "12 Tai Gin Road",
+   "descripcion_corta": "The Sun Yat Sen Memorial Hall is a fitting tribute to the intriguing life and times of Chinese revolutionary leader Dr Sun Yat Sen.",
+   "zona": "NOVENA",
+   "lon": 103.84692,
+   "lat": 1.328,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Sungei Buloh",
+   "direccion": "301 Neo Tiew Crescent",
+   "descripcion_corta": "The ecological wonder of Sungei Buloh will transport you into a world rich in animal and plant life.",
+   "zona": "LIM CHU KANG",
+   "lon": 103.73015,
+   "lat": 1.447,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "The Cenotaph - a Singapore War Memorial Landmark",
+   "direccion": "Esplanade Park, Connaught Drive",
+   "descripcion_corta": "The Cenotaph in Singapore is a war memorial in Esplanade Park that honours the heroes who fought and died during World War I and World War II.",
+   "zona": "DOWNTOWN CORE",
+   "lon": 103.85384,
+   "lat": 1.29,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "The Civilian War Memorial park in Singapore",
+   "direccion": "Bras Basah Road & Beach Road intersection",
+   "descripcion_corta": "The Civilian War Memorial and park in Beach Road commemorates Singapore’s civilian victims of the Japanese Occupation during World War II.",
+   "zona": "DOWNTOWN CORE",
+   "lon": 103.85462,
+   "lat": 1.293,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "The Interlace",
+   "direccion": "180-226 Depot Road",
+   "descripcion_corta": "Few buildings demonstrate out-of-the-box thinking as well as The Interlace, an intriguingly designed residential complex.",
+   "zona": "BUKIT MERAH",
+   "lon": 103.80305,
+   "lat": 1.282,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "The Japanese Cemetery Park",
+   "direccion": "825B Chuan Hoe Avenue",
+   "descripcion_corta": "The Japanese Cemetery Park is the largest Japanese cemetery in Southeast Asia, containing nearly 1,000 graves of Singapore’s early Japanese community.",
+   "zona": "HOUGANG",
+   "lon": 103.87584,
+   "lat": 1.364,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "The Substation, Singapore Contemporary Art Centre",
+   "direccion": "45 Armenian Street",
+   "descripcion_corta": "The Substation is an experimental arts centre that gives a space for contemporary artists to try out new concepts.",
+   "zona": "MUSEUM",
+   "lon": 103.84934,
+   "lat": 1.294,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Thian Hock Keng Temple, Singapore",
+   "direccion": "158 Telok Ayer Street",
+   "descripcion_corta": "Thian Hock Keng Temple is the oldest Chinese temple in Singapore and dedicated to Mazu, the Goddess of the Sea.",
+   "zona": "OUTRAM",
+   "lon": 103.84763,
+   "lat": 1.281,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Universal Studios Singapore™ Theme Park",
+   "direccion": "8 Sentosa Gateway, Sentosa Island",
+   "descripcion_corta": "Universal Studios Singapore™ at Resorts World™ Sentosa is a movie-themed entertainment park that the whole family can enjoy.",
+   "zona": "SOUTHERN ISLANDS",
+   "lon": 103.82381,
+   "lat": 1.254,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  },
+  {
+   "nombre": "Victoria Theatre Singapore",
+   "direccion": "11 Empress Place",
+   "descripcion_corta": "The historic Victoria Theatre and Concert Hall has been transformed to meet the needs of a modern audience.",
+   "zona": "DOWNTOWN CORE",
+   "lon": 103.85164,
+   "lat": 1.288,
+   "fecha_actualizacion_fuente": "2018-06-19"
+  }
+ ]
+}

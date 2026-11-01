@@ -1,0 +1,30 @@
+{
+ "tema": "privacidad",
+ "probado": "2026-11-01",
+ "fuentes": [
+  {
+   "id": "F06",
+   "nombre": "Resale flat prices based on registration date from Jan-2017 onwards",
+   "entidad": "Housing & Development Board (HDB)",
+   "url": "https://data.gov.sg/datasets/d_8b84c4ee58e3cfc0ece0d773c8ca6abc/view",
+   "licencia": "Singapore Open Data Licence version 1.0",
+   "estado": "integrada",
+   "vigencia": "Enero de 2017 hasta el último mes completo",
+   "probado": "2026-11-01"
+  }
+ ],
+ "cifras": {
+  "pct_unicos_con_direccion": {
+   "valor": 92.3,
+   "unidad": "% de ventas solas con bloque, calle, piso y mes",
+   "vigencia": "2017-01 a 2026-10",
+   "fuente": "F06"
+  },
+  "pct_unicos_agregado": {
+   "valor": 0.6,
+   "unidad": "% de ventas solas con zona, tipo y mes",
+   "vigencia": "2017-01 a 2026-10",
+   "fuente": "F06"
+  }
+ }
+}

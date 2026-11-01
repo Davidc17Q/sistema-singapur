@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Singapur · Sistema de información</title>
+<meta name="description" content="Precios de la vivienda pública de Singapur por zona, con la fuente de cada cifra a un clic.">
+<link rel="stylesheet" href="vendor/maplibre-gl.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="saltar" href="#mapa">Saltar al mapa</a>
+<header class="portada">
+  <p class="antetitulo">Sistema de información de una ciudad · Singapur</p>
+  <h1>¿Cuánto cuesta la vivienda pública en cada zona de Singapur?</h1>
+  <p class="entrada">Para quien evalúa comprar o invertir en un apartamento HDB, la vivienda pública de Singapur. Toque cualquier cifra para ver su fuente, su vigencia y el día en que se probó.</p>
+  <p class="grupo"><strong>Grupo:</strong> Miguel Angel Garcia Osorio · Juan Ignacio Lotero Franco · David Quintero Gallego</p>
+  <p class="grupo">Taller de datos · Gestión y gobierno de datos · EAFIT · <span id="revisado"></span></p>
+  <p class="aviso-viejo" id="aviso-viejo" hidden></p>
+</header>
+
+<nav class="indice" aria-label="Secciones">
+  <a href="#panorama">Panorama</a>
+  <a href="#mapa">Mapa</a>
+  <a href="#evolucion">Evolución</a>
+  <a href="#atracciones">Atracciones</a>
+  <a href="#transporte">Transporte</a>
+  <a href="#no-sabe">Lo que no sabe</a>
+  <a href="#fuentes">Fuentes</a>
+</nav>
+
+<main>
+  <section id="panorama" aria-labelledby="t-panorama">
+    <h2 id="t-panorama">Panorama</h2>
+    <p class="lectura" id="lectura-panorama"></p>
+    <div class="tiles" id="tiles"></div>
+  </section>
+
+  <section id="mapa" aria-labelledby="t-mapa">
+    <h2 id="t-mapa">Dónde está caro y dónde hay vivienda</h2>
+    <p class="pregunta">Responde: ¿cómo se distribuye la vivienda pública y cómo varían sus precios? (F05, F06)</p>
+    <p class="marca-proxy"><span class="etiqueta">PROXY</span> Las ventas vienen por zona de HDB (<em>town</em>) y el mapa por área de planificación. No son la misma división. Pintamos cada zona sobre el área de igual nombre, y dos a mano: Central Area y Kallang/Whampoa. Sirve para comparar, no para leer bordes.</p>
+    <div class="controles" role="group" aria-label="Qué muestra el mapa">
+      <button type="button" class="opcion" data-capa="precio" aria-pressed="true">Precio por m²</button>
+      <button type="button" class="opcion" data-capa="edificios" aria-pressed="false">Edificios HDB</button>
+      <label class="opcion-check"><input type="checkbox" id="ver-atracciones"> Atracciones</label>
+    </div>
+    <div class="mapa-marco">
+      <div id="mapa-lienzo" role="img" aria-label="Mapa de Singapur por áreas de planificación. La tabla de abajo trae los mismos datos."></div>
+      <div class="leyenda" id="leyenda"></div>
+    </div>
+    <div class="detalle" id="detalle" aria-live="polite"><p class="vacio">Toque un área del mapa para ver su detalle.</p></div>
+    <h3>Las zonas, de la más cara a la más barata</h3>
+    <div class="tabla-envoltura"><table id="tabla-zonas"></table></div>
+    <p class="nota" id="nota-tabla"></p>
+  </section>
+
+  <section id="evolucion" aria-labelledby="t-evolucion">
+    <h2 id="t-evolucion">Cómo ha cambiado el precio</h2>
+    <p class="lectura" id="lectura-evolucion"></p>
+    <figure class="grafico">
+      <div id="linea" class="linea"></div>
+      <div class="info-punto" id="info-punto" aria-live="polite"></div>
+      <figcaption id="pie-linea"></figcaption>
+    </figure>
+  </section>
+
+  <section id="atracciones" aria-labelledby="t-atracciones">
+    <h2 id="t-atracciones">Las atracciones turísticas</h2>
+    <p class="pregunta">Responde: ¿cuáles son las principales atracciones y dónde se ubican? (F02)</p>
+    <p class="lectura" id="lectura-atracciones"></p>
+    <p class="marca-vieja"><span class="etiqueta etiqueta-vieja">DATO VIEJO</span> Los registros se editaron por última vez en <span id="anio-atracciones"></span>. Horarios y enlaces no se muestran, porque pueden haber cambiado.</p>
+    <label class="buscar" for="buscar-atraccion">Buscar por nombre o área</label>
+    <input id="buscar-atraccion" type="search" autocomplete="off" placeholder="Por ejemplo, museum o Orchard">
+    <ul class="lista-atracciones" id="lista-atracciones"></ul>
+    <button type="button" class="enlace" id="mas-atracciones">Ver más</button>
+  </section>
+
+  <section id="transporte" aria-labelledby="t-transporte">
+    <h2 id="t-transporte">Cómo llega la gente al trabajo</h2>
+    <p class="marca-vieja"><span class="etiqueta etiqueta-vieja">DATO VIEJO</span> Cifra nacional de la encuesta de hogares de 2015. Es contexto: no dice nada de una zona en particular, y por eso no se cruza con la vivienda.</p>
+    <p class="lectura" id="lectura-transporte"></p>
+    <label class="buscar" for="edad">Grupo de edad</label>
+    <select id="edad"></select>
+    <div class="barras" id="barras-transporte"></div>
+  </section>
+
+  <section id="no-sabe" aria-labelledby="t-no-sabe">
+    <h2 id="t-no-sabe">Lo que este sistema no sabe, y lo que decidimos no mostrar</h2>
+    <h3>Preguntas</h3>
+    <ul class="estado-preguntas">
+      <li><span class="etiqueta etiqueta-ok">RESPONDIDA</span> ¿Cuáles son las principales atracciones y dónde se ubican? (F02)</li>
+      <li><span class="etiqueta etiqueta-ok">RESPONDIDA</span> ¿Cómo se distribuye la vivienda pública y cómo varían sus precios? (F05, F06)</li>
+      <li><span class="etiqueta etiqueta-pend">PENDIENTE</span> ¿Cómo se relacionan el transporte y los taxis con el flujo de personas y la oferta inmobiliaria? F03 es nacional y de 2015. F07 es una foto de un instante. Haría falta acumular lecturas durante semanas y tener un dato de viajes por zona.</li>
+      <li><span class="etiqueta etiqueta-pend">PENDIENTE</span> ¿Cómo influye el clima en la movilidad y el turismo? F09 da lluvia, pero no encontramos una medida abierta y diaria de movilidad o de turismo por zona con la cual cruzarla.</li>
+    </ul>
+    <h3>Decidimos no mostrar</h3>
+    <ul class="no-mostrar">
+      <li><strong>Precios por bloque, calle o piso.</strong> <span id="evidencia-privacidad"></span></li>
+      <li><strong>La ubicación y el código postal de cada edificio.</strong> Solo publicamos cuántos hay por área.</li>
+      <li><strong>Medianas con menos de <span id="minimo"></span> ventas.</strong> Un grupo tan pequeño se acerca demasiado a un apartamento concreto.</li>
+      <li><strong>Imágenes de las cámaras de tráfico (F08).</strong> Pueden mostrar placas o personas, y ninguna pregunta las necesita.</li>
+    </ul>
+    <h3>Quién no aparece</h3>
+    <p>La vivienda privada y los condominios no están: este sistema solo ve HDB. Tampoco aparece quien vive en dormitorios de trabajadores migrantes, ni quien alquila. Por eso, un área sin color no es un área barata: es un área sin datos de reventa HDB.</p>
+    <p>Las medianas por m² también dependen de qué tipo de apartamento se vendió en cada zona. Las diferencias entre zonas describen el mercado; no explican por qué una zona cuesta más.</p>
+  </section>
+
+  <section id="fuentes" aria-labelledby="t-fuentes">
+    <h2 id="t-fuentes">Fuentes y método</h2>
+    <p class="lectura" id="lectura-fuentes"></p>
+    <div class="tabla-envoltura"><table id="tabla-fuentes"></table></div>
+    <h3>Aviso de licencia</h3>
+    <div id="avisos" class="avisos"></div>
+    <p class="nota">Este es un trabajo académico independiente. No tiene relación con el Gobierno de Singapur ni con sus agencias, y ninguna lo respalda. Los datos se usan tal como se publican, sin garantía.</p>
+    <h3>Método</h3>
+    <p>Un script por fuente baja el dato, lo limpia y escribe el lago. Una verificación automática revisa cada cifra y, si algo falla, no se publica. El código y la bitácora están en el <a href="https://github.com/Davidc17Q/sistema-singapur">repositorio</a>.</p>
+  </section>
+</main>
+
+<footer class="pie">
+  <p>Miguel Angel Garcia Osorio · Juan Ignacio Lotero Franco · David Quintero Gallego</p>
+  <p>Mapa con <a href="https://maplibre.org/">MapLibre GL JS</a> (licencia BSD-3-Clause), sin mapa base ni llaves.</p>
+</footer>
+
+<dialog id="ficha" aria-labelledby="ficha-titulo">
+  <form method="dialog" class="ficha-cierre"><button type="submit" aria-label="Cerrar">×</button></form>
+  <div id="ficha-cuerpo"></div>
+</dialog>
+
+<script src="vendor/maplibre-gl.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

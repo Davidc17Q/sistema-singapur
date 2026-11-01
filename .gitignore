@@ -1,0 +1,11 @@
+# Los crudos nunca llegan al repositorio ni al despliegue
+lago/raw/
+.env
+.env.*
+.vercel
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+Thumbs.db
+exploracion/streamlit/.venv/

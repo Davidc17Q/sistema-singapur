@@ -1,0 +1,1513 @@
+{
+ "tema": "vivienda",
+ "probado": "2026-11-01",
+ "fuentes": [
+  {
+   "id": "F05",
+   "nombre": "HDB Existing Building",
+   "entidad": "Housing & Development Board (HDB)",
+   "url": "https://data.gov.sg/datasets/d_16b157c52ed637edd6ba1232e026258d/view",
+   "licencia": "Singapore Open Data Licence version 1.0",
+   "estado": "integrada",
+   "vigencia": "Versión vigente en el portal al día de la prueba",
+   "probado": "2026-11-01"
+  },
+  {
+   "id": "F06",
+   "nombre": "Resale flat prices based on registration date from Jan-2017 onwards",
+   "entidad": "Housing & Development Board (HDB)",
+   "url": "https://data.gov.sg/datasets/d_8b84c4ee58e3cfc0ece0d773c8ca6abc/view",
+   "licencia": "Singapore Open Data Licence version 1.0",
+   "estado": "integrada",
+   "vigencia": "Enero de 2017 hasta el último mes completo",
+   "probado": "2026-11-01"
+  }
+ ],
+ "cifras": {
+  "ventas_ventana": {
+   "valor": 25490,
+   "unidad": "ventas registradas",
+   "vigencia": "2025-11 a 2026-10",
+   "fuente": "F06"
+  },
+  "mediana_nacional_sgd_m2": {
+   "valor": 6478,
+   "unidad": "SGD por m²",
+   "vigencia": "2025-11 a 2026-10",
+   "fuente": "F06"
+  },
+  "zona_mas_cara_sgd_m2": {
+   "valor": 10633,
+   "unidad": "SGD por m² en QUEENSTOWN",
+   "vigencia": "2025-11 a 2026-10",
+   "fuente": "F06"
+  },
+  "zona_mas_barata_sgd_m2": {
+   "valor": 5522,
+   "unidad": "SGD por m² en JURONG WEST",
+   "vigencia": "2025-11 a 2026-10",
+   "fuente": "F06"
+  },
+  "cambio_desde_2017_pct": {
+   "valor": 51.1,
+   "unidad": "% contra la mediana de 2017",
+   "vigencia": "2026-10",
+   "fuente": "F06"
+  },
+  "edificios_hdb": {
+   "valor": 13436,
+   "unidad": "edificios ubicados en un área",
+   "vigencia": "versión del portal al 2026-11-01",
+   "fuente": "F05"
+  }
+ },
+ "minimo_ventas": 10,
+ "ventana": "2025-11 a 2026-10",
+ "edificios_por_zona": {
+  "ANG MO KIO": 460,
+  "BEDOK": 631,
+  "BISHAN": 289,
+  "BUKIT BATOK": 522,
+  "BUKIT MERAH": 564,
+  "BUKIT PANJANG": 434,
+  "BUKIT TIMAH": 28,
+  "CHANGI": 7,
+  "CHOA CHU KANG": 648,
+  "CLEMENTI": 257,
+  "DOWNTOWN CORE": 3,
+  "GEYLANG": 391,
+  "HOUGANG": 692,
+  "JURONG EAST": 269,
+  "JURONG WEST": 909,
+  "KALLANG": 295,
+  "MARINE PARADE": 78,
+  "NOVENA": 114,
+  "OUTRAM": 53,
+  "PASIR RIS": 656,
+  "PUNGGOL": 749,
+  "QUEENSTOWN": 343,
+  "ROCHOR": 45,
+  "SEMBAWANG": 380,
+  "SENGKANG": 901,
+  "SERANGOON": 257,
+  "TAMPINES": 1082,
+  "TANGLIN": 3,
+  "TENGAH": 167,
+  "TOA PAYOH": 497,
+  "WOODLANDS": 922,
+  "YISHUN": 790
+ },
+ "towns": [
+  {
+   "town": "ANG MO KIO",
+   "zonas": [
+    "ANG MO KIO"
+   ],
+   "asignacion": "nombre_igual",
+   "ventas": 889,
+   "mediana_precio_sgd": 513000,
+   "mediana_sgd_m2": 6269,
+   "variacion_anual_pct": 0.0,
+   "por_tipo": {
+    "2 ROOM": {
+     "ventas": 26,
+     "mediana_precio_sgd": 324000
+    },
+    "3 ROOM": {
+     "ventas": 423,
+     "mediana_precio_sgd": 430000
+    },
+    "4 ROOM": {
+     "ventas": 287,
+     "mediana_precio_sgd": 620000
+    },
+    "5 ROOM": {
+     "ventas": 146,
+     "mediana_precio_sgd": 981500
+    }
+   }
+  },
+  {
+   "town": "BEDOK",
+   "zonas": [
+    "BEDOK"
+   ],
+   "asignacion": "nombre_igual",
+   "ventas": 1363,
+   "mediana_precio_sgd": 556888,
+   "mediana_sgd_m2": 6324,
+   "variacion_anual_pct": -0.5,
+   "por_tipo": {
+    "2 ROOM": {
+     "ventas": 18,
+     "mediana_precio_sgd": 325000
+    },
+    "3 ROOM": {
+     "ventas": 503,
+     "mediana_precio_sgd": 415000
+    },
+    "4 ROOM": {
+     "ventas": 539,
+     "mediana_precio_sgd": 600000
+    },
+    "5 ROOM": {
+     "ventas": 230,
+     "mediana_precio_sgd": 804000
+    },
+    "EXECUTIVE": {
+     "ventas": 73,
+     "mediana_precio_sgd": 1020000
+    }
+   }
+  },
+  {
+   "town": "BISHAN",
+   "zonas": [
+    "BISHAN"
+   ],
+   "asignacion": "nombre_igual",
+   "ventas": 439,
+   "mediana_precio_sgd": 850000,
+   "mediana_sgd_m2": 8000,
+   "variacion_anual_pct": -1.2,
+   "por_tipo": {
+    "3 ROOM": {
+     "ventas": 64,
+     "mediana_precio_sgd": 530000
+    },
+    "4 ROOM": {
+     "ventas": 200,
+     "mediana_precio_sgd": 788000
+    },
+    "5 ROOM": {
+     "ventas": 122,
+     "mediana_precio_sgd": 970000
+    },
+    "EXECUTIVE": {
+     "ventas": 52,
+     "mediana_precio_sgd": 1292500
+    }
+   }
+  },
+  {
+   "town": "BUKIT BATOK",
+   "zonas": [
+    "BUKIT BATOK"
+   ],
+   "asignacion": "nombre_igual",
+   "ventas": 1406,
+   "mediana_precio_sgd": 609500,
+   "mediana_sgd_m2": 6643,
+   "variacion_anual_pct": 3.2,
+   "por_tipo": {
+    "2 ROOM": {
+     "ventas": 90,
+     "mediana_precio_sgd": 380000
+    },
+    "3 ROOM": {
+     "ventas": 331,
+     "mediana_precio_sgd": 413888
+    },
+    "4 ROOM": {
+     "ventas": 600,
+     "mediana_precio_sgd": 625000
+    },
+    "5 ROOM": {
+     "ventas": 314,
+     "mediana_precio_sgd": 810000
+    },
+    "EXECUTIVE": {
+     "ventas": 71,
+     "mediana_precio_sgd": 868000
+    }
+   }
+  },
+  {
+   "town": "BUKIT MERAH",
+   "zonas": [
+    "BUKIT MERAH"
+   ],
+   "asignacion": "nombre_igual",
+   "ventas": 945,
+   "mediana_precio_sgd": 794888,
+   "mediana_sgd_m2": 8636,
+   "variacion_anual_pct": -0.8,
+   "por_tipo": {
+    "2 ROOM": {
+     "ventas": 35,
+     "mediana_precio_sgd": 290000
+    },
+    "3 ROOM": {
+     "ventas": 308,
+     "mediana_precio_sgd": 430000
+    },
+    "4 ROOM": {
+     "ventas": 403,
+     "mediana_precio_sgd": 938000
+    },
+    "5 ROOM": {
+     "ventas": 190,
+     "mediana_precio_sgd": 1075000
+    }
+   }
+  },
+  {
+   "town": "BUKIT PANJANG",
+   "zonas": [
+    "BUKIT PANJANG"
+   ],
+   "asignacion": "nombre_igual",
+   "ventas": 804,
+   "mediana_precio_sgd": 612000,
+   "mediana_sgd_m2": 6124,
+   "variacion_anual_pct": -1.0,
+   "por_tipo": {
+    "2 ROOM": {
+     "ventas": 12,
+     "mediana_precio_sgd": 380000
+    },
+    "3 ROOM": {
+     "ventas": 106,
+     "mediana_precio_sgd": 456944
+    },
+    "4 ROOM": {
+     "ventas": 378,
+     "mediana_precio_sgd": 570000
+    },
+    "5 ROOM": {
+     "ventas": 226,
+     "mediana_precio_sgd": 696944
+    },
+    "EXECUTIVE": {
+     "ventas": 82,
+     "mediana_precio_sgd": 851500
+    }
+   }
+  },
+  {
+   "town": "BUKIT TIMAH",
+   "zonas": [
+    "BUKIT TIMAH"
+   ],
+   "asignacion": "nombre_igual",
+   "ventas": 62,
+   "mediana_precio_sgd": 995000,
+   "mediana_sgd_m2": 8918,
+   "variacion_anual_pct": 0.8,
+   "por_tipo": {
+    "3 ROOM": {
+     "ventas": 10,
+     "mediana_precio_sgd": 490000
+    },
+    "4 ROOM": {
+     "ventas": 18,
+     "mediana_precio_sgd": 934000
+    },
+    "5 ROOM": {
+     "ventas": 24,
+     "mediana_precio_sgd": 1107500
+    },
+    "EXECUTIVE": {
+     "ventas": 10,
+     "mediana_precio_sgd": 1382500
+    }
+   }
+  },
+  {
+   "town": "CENTRAL AREA",
+   "zonas": [
+    "DOWNTOWN CORE",
+    "OUTRAM",
+    "ROCHOR"
+   ],
+   "asignacion": "manual",
+   "ventas": 182,
+   "mediana_precio_sgd": 719000,
+   "mediana_sgd_m2": 8797,
+   "variacion_anual_pct": -3.0,
+   "por_tipo": {
+    "3 ROOM": {
+     "ventas": 68,
+     "mediana_precio_sgd": 550000
+    },
+    "4 ROOM": {
+     "ventas": 81,
+     "mediana_precio_sgd": 870000
+    },
+    "5 ROOM": {
+     "ventas": 26,
+     "mediana_precio_sgd": 1480000
+    }
+   }
+  },
+  {
+   "town": "CHOA CHU KANG",
+   "zonas": [
+    "CHOA CHU KANG"
+   ],
+   "asignacion": "nombre_igual",
+   "ventas": 1042,
+   "mediana_precio_sgd": 590000,
+   "mediana_sgd_m2": 5550,
+   "variacion_anual_pct": 0.4,
+   "por_tipo": {
+    "2 ROOM": {
+     "ventas": 17,
+     "mediana_precio_sgd": 358000
+    },
+    "3 ROOM": {
+     "ventas": 72,
+     "mediana_precio_sgd": 445444
+    },
+    "4 ROOM": {
+     "ventas": 516,
+     "mediana_precio_sgd": 551944
+    },
+    "5 ROOM": {
+     "ventas": 343,
+     "mediana_precio_sgd": 670000
+    },
+    "EXECUTIVE": {
+     "ventas": 94,
+     "mediana_precio_sgd": 835000
+    }
+   }
+  },
+  {
+   "town": "CLEMENTI",
+   "zonas": [
+    "CLEMENTI"
+   ],
+   "asignacion": "nombre_igual",
+   "ventas": 515,
+   "mediana_precio_sgd": 630000,
+   "mediana_sgd_m2": 6791,
+   "variacion_anual_pct": 2.2,
+   "por_tipo": {
+    "3 ROOM": {
+     "ventas": 212,
+     "mediana_precio_sgd": 432000
+    },
+    "4 ROOM": {
+     "ventas": 200,
+     "mediana_precio_sgd": 801500
+    },
+    "5 ROOM": {
+     "ventas": 86,
+     "mediana_precio_sgd": 1150000
+    },
+    "EXECUTIVE": {
+     "ventas": 11,
+     "mediana_precio_sgd": 1060000
+    }
+   }
+  },
+  {
+   "town": "GEYLANG",
+   "zonas": [
+    "GEYLANG"
+   ],
+   "asignacion": "nombre_igual",
+   "ventas": 662,
+   "mediana_precio_sgd": 580000,
+   "mediana_sgd_m2": 6754,
+   "variacion_anual_pct": 0.7,
+   "por_tipo": {
+    "2 ROOM": {
+     "ventas": 20,
+     "mediana_precio_sgd": 286500
+    },
+    "3 ROOM": {
+     "ventas": 324,
+     "mediana_precio_sgd": 380000
+    },
+    "4 ROOM": {
+     "ventas": 230,
+     "mediana_precio_sgd": 740000
+    },
+    "5 ROOM": {
+     "ventas": 74,
+     "mediana_precio_sgd": 925444
+    },
+    "EXECUTIVE": {
+     "ventas": 14,
+     "mediana_precio_sgd": 1062500
+    }
+   }
+  },
+  {
+   "town": "HOUGANG",
+   "zonas": [
+    "HOUGANG"
+   ],
+   "asignacion": "nombre_igual",
+   "ventas": 1271,
+   "mediana_precio_sgd": 630000,
+   "mediana_sgd_m2": 6496,
+   "variacion_anual_pct": -0.4,
+   "por_tipo": {
+    "2 ROOM": {
+     "ventas": 39,
+     "mediana_precio_sgd": 385000
+    },
+    "3 ROOM": {
+     "ventas": 255,
+     "mediana_precio_sgd": 450000
+    },
+    "4 ROOM": {
+     "ventas": 591,
+     "mediana_precio_sgd": 618888
+    },
+    "5 ROOM": {
+     "ventas": 255,
+     "mediana_precio_sgd": 783888
+    },
+    "EXECUTIVE": {
+     "ventas": 131,
+     "mediana_precio_sgd": 966000
+    }
+   }
+  },
+  {
+   "town": "JURONG EAST",
+   "zonas": [
+    "JURONG EAST"
+   ],
+   "asignacion": "nombre_igual",
+   "ventas": 485,
+   "mediana_precio_sgd": 528888,
+   "mediana_sgd_m2": 5889,
+   "variacion_anual_pct": 0.8,
+   "por_tipo": {
+    "2 ROOM": {
+     "ventas": 11,
+     "mediana_precio_sgd": 352000
+    },
+    "3 ROOM": {
+     "ventas": 180,
+     "mediana_precio_sgd": 408000
+    },
+    "4 ROOM": {
+     "ventas": 140,
+     "mediana_precio_sgd": 549444
+    },
+    "5 ROOM": {
+     "ventas": 118,
+     "mediana_precio_sgd": 712500
+    },
+    "EXECUTIVE": {
+     "ventas": 36,
+     "mediana_precio_sgd": 942500
+    }
+   }
+  },
+  {
+   "town": "JURONG WEST",
+   "zonas": [
+    "JURONG WEST"
+   ],
+   "asignacion": "nombre_igual",
+   "ventas": 1520,
+   "mediana_precio_sgd": 560000,
+   "mediana_sgd_m2": 5522,
+   "variacion_anual_pct": -1.1,
+   "por_tipo": {
+    "2 ROOM": {
+     "ventas": 28,
+     "mediana_precio_sgd": 361500
+    },
+    "3 ROOM": {
+     "ventas": 307,
+     "mediana_precio_sgd": 390000
+    },
+    "4 ROOM": {
+     "ventas": 592,
+     "mediana_precio_sgd": 534500
+    },
+    "5 ROOM": {
+     "ventas": 460,
+     "mediana_precio_sgd": 635444
+    },
+    "EXECUTIVE": {
+     "ventas": 133,
+     "mediana_precio_sgd": 780000
+    }
+   }
+  },
+  {
+   "town": "KALLANG/WHAMPOA",
+   "zonas": [
+    "KALLANG",
+    "NOVENA"
+   ],
+   "asignacion": "manual",
+   "ventas": 780,
+   "mediana_precio_sgd": 728888,
+   "mediana_sgd_m2": 7741,
+   "variacion_anual_pct": 0.6,
+   "por_tipo": {
+    "2 ROOM": {
+     "ventas": 11,
+     "mediana_precio_sgd": 328000
+    },
+    "3 ROOM": {
+     "ventas": 314,
+     "mediana_precio_sgd": 454000
+    },
+    "4 ROOM": {
+     "ventas": 316,
+     "mediana_precio_sgd": 900000
+    },
+    "5 ROOM": {
+     "ventas": 124,
+     "mediana_precio_sgd": 951944
+    },
+    "EXECUTIVE": {
+     "ventas": 15,
+     "mediana_precio_sgd": 1000000
+    }
+   }
+  },
+  {
+   "town": "MARINE PARADE",
+   "zonas": [
+    "MARINE PARADE"
+   ],
+   "asignacion": "nombre_igual",
+   "ventas": 132,
+   "mediana_precio_sgd": 550000,
+   "mediana_sgd_m2": 7405,
+   "variacion_anual_pct": 1.0,
+   "por_tipo": {
+    "3 ROOM": {
+     "ventas": 62,
+     "mediana_precio_sgd": 466500
+    },
+    "4 ROOM": {
+     "ventas": 38,
+     "mediana_precio_sgd": 637500
+    },
+    "5 ROOM": {
+     "ventas": 31,
+     "mediana_precio_sgd": 1050000
+    }
+   }
+  },
+  {
+   "town": "PASIR RIS",
+   "zonas": [
+    "PASIR RIS"
+   ],
+   "asignacion": "nombre_igual",
+   "ventas": 777,
+   "mediana_precio_sgd": 728888,
+   "mediana_sgd_m2": 6032,
+   "variacion_anual_pct": 1.5,
+   "por_tipo": {
+    "3 ROOM": {
+     "ventas": 23,
+     "mediana_precio_sgd": 608000
+    },
+    "4 ROOM": {
+     "ventas": 303,
+     "mediana_precio_sgd": 635000
+    },
+    "5 ROOM": {
+     "ventas": 242,
+     "mediana_precio_sgd": 735000
+    },
+    "EXECUTIVE": {
+     "ventas": 200,
+     "mediana_precio_sgd": 925444
+    }
+   }
+  },
+  {
+   "town": "PUNGGOL",
+   "zonas": [
+    "PUNGGOL"
+   ],
+   "asignacion": "nombre_igual",
+   "ventas": 1702,
+   "mediana_precio_sgd": 672888,
+   "mediana_sgd_m2": 7453,
+   "variacion_anual_pct": 1.7,
+   "por_tipo": {
+    "2 ROOM": {
+     "ventas": 128,
+     "mediana_precio_sgd": 396400
+    },
+    "3 ROOM": {
+     "ventas": 184,
+     "mediana_precio_sgd": 545000
+    },
+    "4 ROOM": {
+     "ventas": 871,
+     "mediana_precio_sgd": 680000
+    },
+    "5 ROOM": {
+     "ventas": 497,
+     "mediana_precio_sgd": 795000
+    },
+    "EXECUTIVE": {
+     "ventas": 22,
+     "mediana_precio_sgd": 827500
+    }
+   }
+  },
+  {
+   "town": "QUEENSTOWN",
+   "zonas": [
+    "QUEENSTOWN"
+   ],
+   "asignacion": "nombre_igual",
+   "ventas": 810,
+   "mediana_precio_sgd": 859500,
+   "mediana_sgd_m2": 10633,
+   "variacion_anual_pct": 13.8,
+   "por_tipo": {
+    "2 ROOM": {
+     "ventas": 22,
+     "mediana_precio_sgd": 395000
+    },
+    "3 ROOM": {
+     "ventas": 364,
+     "mediana_precio_sgd": 462500
+    },
+    "4 ROOM": {
+     "ventas": 323,
+     "mediana_precio_sgd": 1030000
+    },
+    "5 ROOM": {
+     "ventas": 94,
+     "mediana_precio_sgd": 1235940
+    }
+   }
+  },
+  {
+   "town": "SEMBAWANG",
+   "zonas": [
+    "SEMBAWANG"
+   ],
+   "asignacion": "nombre_igual",
+   "ventas": 888,
+   "mediana_precio_sgd": 600000,
+   "mediana_sgd_m2": 6452,
+   "variacion_anual_pct": -5.1,
+   "por_tipo": {
+    "2 ROOM": {
+     "ventas": 95,
+     "mediana_precio_sgd": 380000
+    },
+    "3 ROOM": {
+     "ventas": 95,
+     "mediana_precio_sgd": 520000
+    },
+    "4 ROOM": {
+     "ventas": 393,
+     "mediana_precio_sgd": 600000
+    },
+    "5 ROOM": {
+     "ventas": 244,
+     "mediana_precio_sgd": 639444
+    },
+    "EXECUTIVE": {
+     "ventas": 61,
+     "mediana_precio_sgd": 750000
+    }
+   }
+  },
+  {
+   "town": "SENGKANG",
+   "zonas": [
+    "SENGKANG"
+   ],
+   "asignacion": "nombre_igual",
+   "ventas": 1792,
+   "mediana_precio_sgd": 660000,
+   "mediana_sgd_m2": 6770,
+   "variacion_anual_pct": -1.6,
+   "por_tipo": {
+    "2 ROOM": {
+     "ventas": 71,
+     "mediana_precio_sgd": 388000
+    },
+    "3 ROOM": {
+     "ventas": 133,
+     "mediana_precio_sgd": 542888
+    },
+    "4 ROOM": {
+     "ventas": 864,
+     "mediana_precio_sgd": 640000
+    },
+    "5 ROOM": {
+     "ventas": 607,
+     "mediana_precio_sgd": 700000
+    },
+    "EXECUTIVE": {
+     "ventas": 117,
+     "mediana_precio_sgd": 845000
+    }
+   }
+  },
+  {
+   "town": "SERANGOON",
+   "zonas": [
+    "SERANGOON"
+   ],
+   "asignacion": "nombre_igual",
+   "ventas": 399,
+   "mediana_precio_sgd": 663888,
+   "mediana_sgd_m2": 7000,
+   "variacion_anual_pct": -0.7,
+   "por_tipo": {
+    "3 ROOM": {
+     "ventas": 100,
+     "mediana_precio_sgd": 466500
+    },
+    "4 ROOM": {
+     "ventas": 180,
+     "mediana_precio_sgd": 653444
+    },
+    "5 ROOM": {
+     "ventas": 69,
+     "mediana_precio_sgd": 838000
+    },
+    "EXECUTIVE": {
+     "ventas": 50,
+     "mediana_precio_sgd": 1120000
+    }
+   }
+  },
+  {
+   "town": "TAMPINES",
+   "zonas": [
+    "TAMPINES"
+   ],
+   "asignacion": "nombre_igual",
+   "ventas": 2103,
+   "mediana_precio_sgd": 720000,
+   "mediana_sgd_m2": 6700,
+   "variacion_anual_pct": 0.7,
+   "por_tipo": {
+    "2 ROOM": {
+     "ventas": 10,
+     "mediana_precio_sgd": 426444
+    },
+    "3 ROOM": {
+     "ventas": 388,
+     "mediana_precio_sgd": 490000
+    },
+    "4 ROOM": {
+     "ventas": 922,
+     "mediana_precio_sgd": 665500
+    },
+    "5 ROOM": {
+     "ventas": 597,
+     "mediana_precio_sgd": 815000
+    },
+    "EXECUTIVE": {
+     "ventas": 182,
+     "mediana_precio_sgd": 980000
+    }
+   }
+  },
+  {
+   "town": "TOA PAYOH",
+   "zonas": [
+    "TOA PAYOH"
+   ],
+   "asignacion": "nombre_igual",
+   "ventas": 1046,
+   "mediana_precio_sgd": 804000,
+   "mediana_sgd_m2": 8092,
+   "variacion_anual_pct": 3.0,
+   "por_tipo": {
+    "2 ROOM": {
+     "ventas": 23,
+     "mediana_precio_sgd": 280000
+    },
+    "3 ROOM": {
+     "ventas": 428,
+     "mediana_precio_sgd": 380000
+    },
+    "4 ROOM": {
+     "ventas": 428,
+     "mediana_precio_sgd": 1000888
+    },
+    "5 ROOM": {
+     "ventas": 150,
+     "mediana_precio_sgd": 1050000
+    },
+    "EXECUTIVE": {
+     "ventas": 17,
+     "mediana_precio_sgd": 980000
+    }
+   }
+  },
+  {
+   "town": "WOODLANDS",
+   "zonas": [
+    "WOODLANDS"
+   ],
+   "asignacion": "nombre_igual",
+   "ventas": 1871,
+   "mediana_precio_sgd": 585000,
+   "mediana_sgd_m2": 5637,
+   "variacion_anual_pct": -1.1,
+   "por_tipo": {
+    "2 ROOM": {
+     "ventas": 34,
+     "mediana_precio_sgd": 379000
+    },
+    "3 ROOM": {
+     "ventas": 209,
+     "mediana_precio_sgd": 410000
+    },
+    "4 ROOM": {
+     "ventas": 893,
+     "mediana_precio_sgd": 548000
+    },
+    "5 ROOM": {
+     "ventas": 547,
+     "mediana_precio_sgd": 655000
+    },
+    "EXECUTIVE": {
+     "ventas": 188,
+     "mediana_precio_sgd": 912500
+    }
+   }
+  },
+  {
+   "town": "YISHUN",
+   "zonas": [
+    "YISHUN"
+   ],
+   "asignacion": "nombre_igual",
+   "ventas": 1605,
+   "mediana_precio_sgd": 535000,
+   "mediana_sgd_m2": 6071,
+   "variacion_anual_pct": -2.0,
+   "por_tipo": {
+    "2 ROOM": {
+     "ventas": 52,
+     "mediana_precio_sgd": 363000
+    },
+    "3 ROOM": {
+     "ventas": 423,
+     "mediana_precio_sgd": 430008
+    },
+    "4 ROOM": {
+     "ventas": 797,
+     "mediana_precio_sgd": 550000
+    },
+    "5 ROOM": {
+     "ventas": 266,
+     "mediana_precio_sgd": 693194
+    },
+    "EXECUTIVE": {
+     "ventas": 63,
+     "mediana_precio_sgd": 900000
+    }
+   }
+  }
+ ],
+ "series": {
+  "mediana_mensual_sgd_m2": {
+   "unidad": "SGD por m²",
+   "fuente": "F06",
+   "puntos": [
+    [
+     "2017-01",
+     4294,
+     1185
+    ],
+    [
+     "2017-02",
+     4322,
+     1085
+    ],
+    [
+     "2017-03",
+     4331,
+     1903
+    ],
+    [
+     "2017-04",
+     4299,
+     1839
+    ],
+    [
+     "2017-05",
+     4270,
+     1980
+    ],
+    [
+     "2017-06",
+     4293,
+     1747
+    ],
+    [
+     "2017-07",
+     4243,
+     1780
+    ],
+    [
+     "2017-08",
+     4280,
+     1960
+    ],
+    [
+     "2017-09",
+     4278,
+     1680
+    ],
+    [
+     "2017-10",
+     4269,
+     1785
+    ],
+    [
+     "2017-11",
+     4254,
+     1980
+    ],
+    [
+     "2017-12",
+     4252,
+     1585
+    ],
+    [
+     "2018-01",
+     4286,
+     1072
+    ],
+    [
+     "2018-02",
+     4245,
+     1183
+    ],
+    [
+     "2018-03",
+     4239,
+     1881
+    ],
+    [
+     "2018-04",
+     4235,
+     1838
+    ],
+    [
+     "2018-05",
+     4231,
+     1740
+    ],
+    [
+     "2018-06",
+     4208,
+     1975
+    ],
+    [
+     "2018-07",
+     4211,
+     2539
+    ],
+    [
+     "2018-08",
+     4233,
+     2067
+    ],
+    [
+     "2018-09",
+     4179,
+     1985
+    ],
+    [
+     "2018-10",
+     4146,
+     1992
+    ],
+    [
+     "2018-11",
+     4165,
+     1866
+    ],
+    [
+     "2018-12",
+     4178,
+     1423
+    ],
+    [
+     "2019-01",
+     4135,
+     1550
+    ],
+    [
+     "2019-02",
+     4176,
+     1304
+    ],
+    [
+     "2019-03",
+     4194,
+     1653
+    ],
+    [
+     "2019-04",
+     4154,
+     1915
+    ],
+    [
+     "2019-05",
+     4167,
+     2070
+    ],
+    [
+     "2019-06",
+     4130,
+     1884
+    ],
+    [
+     "2019-07",
+     4165,
+     2114
+    ],
+    [
+     "2019-08",
+     4205,
+     1902
+    ],
+    [
+     "2019-09",
+     4152,
+     1830
+    ],
+    [
+     "2019-10",
+     4195,
+     2206
+    ],
+    [
+     "2019-11",
+     4212,
+     1910
+    ],
+    [
+     "2019-12",
+     4194,
+     1848
+    ],
+    [
+     "2020-01",
+     4201,
+     1911
+    ],
+    [
+     "2020-02",
+     4239,
+     1661
+    ],
+    [
+     "2020-03",
+     4254,
+     1937
+    ],
+    [
+     "2020-04",
+     4233,
+     424
+    ],
+    [
+     "2020-05",
+     4242,
+     363
+    ],
+    [
+     "2020-06",
+     4203,
+     2438
+    ],
+    [
+     "2020-07",
+     4287,
+     2456
+    ],
+    [
+     "2020-08",
+     4298,
+     2426
+    ],
+    [
+     "2020-09",
+     4384,
+     2482
+    ],
+    [
+     "2020-10",
+     4516,
+     2427
+    ],
+    [
+     "2020-11",
+     4538,
+     2322
+    ],
+    [
+     "2020-12",
+     4577,
+     2486
+    ],
+    [
+     "2021-01",
+     4624,
+     2491
+    ],
+    [
+     "2021-02",
+     4728,
+     2160
+    ],
+    [
+     "2021-03",
+     4766,
+     2443
+    ],
+    [
+     "2021-04",
+     4808,
+     2333
+    ],
+    [
+     "2021-05",
+     4871,
+     1957
+    ],
+    [
+     "2021-06",
+     4880,
+     2302
+    ],
+    [
+     "2021-07",
+     4896,
+     2659
+    ],
+    [
+     "2021-08",
+     5000,
+     2739
+    ],
+    [
+     "2021-09",
+     5000,
+     2516
+    ],
+    [
+     "2021-10",
+     5032,
+     2499
+    ],
+    [
+     "2021-11",
+     5089,
+     2566
+    ],
+    [
+     "2021-12",
+     5147,
+     2422
+    ],
+    [
+     "2022-01",
+     5134,
+     2442
+    ],
+    [
+     "2022-02",
+     5149,
+     1895
+    ],
+    [
+     "2022-03",
+     5224,
+     2262
+    ],
+    [
+     "2022-04",
+     5265,
+     2262
+    ],
+    [
+     "2022-05",
+     5340,
+     2154
+    ],
+    [
+     "2022-06",
+     5357,
+     2135
+    ],
+    [
+     "2022-07",
+     5446,
+     2361
+    ],
+    [
+     "2022-08",
+     5369,
+     2309
+    ],
+    [
+     "2022-09",
+     5511,
+     2578
+    ],
+    [
+     "2022-10",
+     5556,
+     1958
+    ],
+    [
+     "2022-11",
+     5512,
+     2130
+    ],
+    [
+     "2022-12",
+     5588,
+     2234
+    ],
+    [
+     "2023-01",
+     5591,
+     2551
+    ],
+    [
+     "2023-02",
+     5565,
+     1837
+    ],
+    [
+     "2023-03",
+     5654,
+     2277
+    ],
+    [
+     "2023-04",
+     5708,
+     2177
+    ],
+    [
+     "2023-05",
+     5672,
+     2245
+    ],
+    [
+     "2023-06",
+     5699,
+     1853
+    ],
+    [
+     "2023-07",
+     5707,
+     2052
+    ],
+    [
+     "2023-08",
+     5773,
+     2467
+    ],
+    [
+     "2023-09",
+     5743,
+     1974
+    ],
+    [
+     "2023-10",
+     5806,
+     2189
+    ],
+    [
+     "2023-11",
+     5806,
+     2128
+    ],
+    [
+     "2023-12",
+     5818,
+     2004
+    ],
+    [
+     "2024-01",
+     5875,
+     2621
+    ],
+    [
+     "2024-02",
+     5848,
+     2123
+    ],
+    [
+     "2024-03",
+     5914,
+     2046
+    ],
+    [
+     "2024-04",
+     5944,
+     2370
+    ],
+    [
+     "2024-05",
+     5978,
+     2490
+    ],
+    [
+     "2024-06",
+     6115,
+     2171
+    ],
+    [
+     "2024-07",
+     6142,
+     3036
+    ],
+    [
+     "2024-08",
+     6129,
+     2591
+    ],
+    [
+     "2024-09",
+     6268,
+     2204
+    ],
+    [
+     "2024-10",
+     6295,
+     2139
+    ],
+    [
+     "2024-11",
+     6276,
+     1929
+    ],
+    [
+     "2024-12",
+     6364,
+     2112
+    ],
+    [
+     "2025-01",
+     6370,
+     2313
+    ],
+    [
+     "2025-02",
+     6452,
+     2091
+    ],
+    [
+     "2025-03",
+     6478,
+     1899
+    ],
+    [
+     "2025-04",
+     6576,
+     2297
+    ],
+    [
+     "2025-05",
+     6564,
+     2266
+    ],
+    [
+     "2025-06",
+     6493,
+     2260
+    ],
+    [
+     "2025-07",
+     6527,
+     2562
+    ],
+    [
+     "2025-08",
+     6507,
+     2202
+    ],
+    [
+     "2025-09",
+     6538,
+     2174
+    ],
+    [
+     "2025-10",
+     6533,
+     1338
+    ],
+    [
+     "2025-11",
+     6493,
+     1658
+    ],
+    [
+     "2025-12",
+     6488,
+     2024
+    ],
+    [
+     "2026-01",
+     6513,
+     2339
+    ],
+    [
+     "2026-02",
+     6420,
+     1661
+    ],
+    [
+     "2026-03",
+     6552,
+     2042
+    ],
+    [
+     "2026-04",
+     6488,
+     1933
+    ],
+    [
+     "2026-05",
+     6508,
+     2126
+    ],
+    [
+     "2026-06",
+     6513,
+     2125
+    ],
+    [
+     "2026-07",
+     6407,
+     2648
+    ],
+    [
+     "2026-08",
+     6464,
+     2518
+    ],
+    [
+     "2026-09",
+     6443,
+     2240
+    ],
+    [
+     "2026-10",
+     6465,
+     2176
+    ]
+   ]
+  }
+ }
+}

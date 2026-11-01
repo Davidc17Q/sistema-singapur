@@ -1,0 +1,7 @@
+{
+ "_nota": "Las ventas de F06 vienen por town de HDB y el mapa de F10 por planning area. No son la misma división: todo color del mapa es un PROXY. 'nombre_igual' significa que coinciden los nombres, no los bordes. 'manual' es una asignación nuestra.",
+ "manual": {
+  "CENTRAL AREA": ["DOWNTOWN CORE", "OUTRAM", "ROCHOR"],
+  "KALLANG/WHAMPOA": ["KALLANG", "NOVENA"]
+ }
+}
