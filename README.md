@@ -1,7 +1,7 @@
 # Singapur · sistema de información
 
 **Grupo:** Miguel Angel Garcia Osorio · Juan Ignacio Lotero Franco · David Quintero Gallego
-**Enlace:** <URL_SISTEMA> · **Revisado:** 2026-11-01
+**Enlace:** https://sistema-singapur.vercel.app · **Revisado:** 2026-11-01
 
 Taller de datos, Gestión y gobierno de datos, EAFIT. Reemplaza al primer tablero del grupo ([tablero-interactivo-singapur](https://github.com/miguelangel17z/tablero-interactivo-singapur)), que no cumplía: mostraba cifras de demostración, comparaba la clave en el navegador y tenía los crudos en un repositorio público.
 
@@ -78,13 +78,18 @@ No probamos Datawrapper, Power BI ni Data Studio porque piden cuenta. kepler.gl 
 - **Revisión de secretos en el historial:** ver abajo.
 
 ```bash
-curl -s -o /dev/null -w "%{http_code}\n" <URL_SISTEMA>/lago/raw/reventa_hdb.csv   # 404
-curl -s -o /dev/null -w "%{http_code}\n" <URL_SISTEMA>/raw/reventa_hdb.csv        # 404
-curl -s <URL_SISTEMA>/datos/vivienda.json | grep -c -i -E "block|street|storey"   # 0
+curl -s -o /dev/null -w "%{http_code}\n" https://sistema-singapur.vercel.app/lago/raw/reventa_hdb.csv   # 404
+curl -s -o /dev/null -w "%{http_code}\n" https://sistema-singapur.vercel.app/raw/reventa_hdb.csv        # 404
+curl -s https://sistema-singapur.vercel.app/datos/vivienda.json | grep -c -i -E "block|street|storey"   # 0
 git log -p | grep -n -i -E "clave *=|secret|password|api_key|token"               # solo documentación
 ```
 
-<RESULTADO_PRUEBAS>
+Resultado contra el sitio publicado, el 2026-11-01:
+
+- Los crudos dan 404, y también `lago/`, `catalogo/`, `ingesta/` y `.git/config`. Solo se sirve la carpeta `web`.
+- Los cuatro archivos del lago publicados no traen ningún campo de bloque, calle, piso o código postal, y son idénticos a los verificados en `lago/`. `fuentes.json` da una coincidencia: la nota de F06 que explica que esos campos no se publican.
+- La búsqueda en el historial solo encontró documentación, nombres de variables y una coincidencia dentro del código de MapLibre. Ninguna clave.
+- Abierto en emulación de teléfono (375 px): sin errores en consola ni desbordes, con el mapa, las fichas y las cabeceras de seguridad funcionando. No se ha probado en un teléfono físico.
 
 **Queda pendiente del grupo:** el repositorio anterior sigue público, con la clave en el código y los crudos en el historial. Lo que protege el sistema nuevo no alcanza al viejo.
 
