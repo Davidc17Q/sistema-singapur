@@ -70,6 +70,17 @@ Probadas con los mismos datos del lago, en esta máquina, el 2026-11-01.
 
 No probamos Datawrapper, Power BI ni Data Studio porque piden cuenta. kepler.gl tampoco se probó. La prueba de Streamlit está en [exploracion/streamlit/app.py](exploracion/streamlit/app.py). La guía pide dos herramientas también en los demás tramos: aquí están las de vistas e ingesta, y **faltan los tramos de verificación y protección**.
 
+## Pruebas de la interfaz
+
+Además de `verificar.py`, hay pruebas del mapa. Son herramientas de desarrollo: viven en `verificacion/`, no se publican (Vercel solo sirve `web/`) y no añaden dependencias ni `package.json`. Necesitan Node 22 y Chrome o Edge (si no lo encuentran, definir `CHROME_PATH`).
+
+```bash
+node --test verificacion/             # la lógica de selección (web/seleccion.js)
+node verificacion/pruebas_web.mjs     # el mapa en un Chrome real, con la misma CSP que Vercel
+```
+
+La segunda prueba comprueba, entre otras cosas, las dos restricciones duras: que ningún popup de hover lleve cifras y que toda cifra tenga su ficha (R1), y que no salga ninguna petición ni violación de CSP hacia otro dominio (R2). `verificar.py` revisa además, antes de publicar, que el código de `web/` no cargue nada externo.
+
 ## Protección
 
 - **Nivel:** abierto, solo agregados.

@@ -142,6 +142,36 @@ check("web: aviso de la licencia con enlace", "data.gov.sg/open-data-licence" in
 check("web: ninguna clave en el código", not re.search(r"password|contrase|api[_-]?key|accountkey", codigo, re.I))
 check("web: ninguna carga desde otro dominio", not re.search(r"(src|href)=\"https?://[^\"]+\.(js|css)", codigo))
 
+# R2, restricción dura «sin terceros»: el check de arriba solo mira etiquetas del HTML. Este revisa también el código que
+# podría pedir algo a otro dominio sin que el HTML lo diga: un estilo de mapa con fuentes remotas, un fetch, un WebSocket.
+# Se revisa el código propio (web/*.js y web/*.css), no web/vendor, que es MapLibre servido desde el mismo origen.
+# Las reglas apuntan a lo que carga cosas, no a palabras sueltas: «tiles» es el nombre de las tarjetas del panorama.
+PROPIOS = [p for p in sorted((RAIZ / "web").glob("*.js")) + sorted((RAIZ / "web").glob("*.css"))]
+ENLACES_PERMITIDOS = {"https://data.gov.sg/open-data-licence"}   # solo se usa como href de un <a>; el resto de la regla impide cargarla
+PROHIBIDO_EN_JS = [
+    (r"\bglyphs\s*:", "estilo de MapLibre con fuentes tipográficas (glyphs)"),
+    (r"\bsprite\s*:", "estilo de MapLibre con sprite"),
+    (r"\btiles\s*:", "fuente de MapLibre con teselas (tiles)"),
+    (r"\b(?:XMLHttpRequest|WebSocket|EventSource)\b", "canal de red distinto de fetch('datos/…')"),
+    (r"\bnavigator\s*\.\s*sendBeacon\b|\bimportScripts\b|\bnew\s+(?:Shared)?Worker\b|\bimport\s*\(", "carga dinámica de código o envío de datos"),
+    (r"\bnew\s+Image\b|\.src\s*=|\bsetAttribute\(\s*['\"](?:src|href)['\"]", "recurso asignado por código"),
+    (r"\bfetch\s*\(\s*(?!['\"]datos/)", "fetch con un destino que no es datos/ (relativo y fijo)"),
+]
+for ruta in PROPIOS:
+    texto = ruta.read_text(encoding="utf-8")
+    if ruta.suffix == ".js":
+        for patron, que in PROHIBIDO_EN_JS:
+            hallado = re.search(patron, texto)
+            check(f"web/{ruta.name}: sin {que}", hallado is None, hallado.group(0) if hallado else "")
+        check(f"web/{ruta.name}: como mucho una llamada a fetch(", len(re.findall(r"\bfetch\s*\(", texto)) <= 1, len(re.findall(r"\bfetch\s*\(", texto)))
+        absolutas = set(re.findall(r"""['"`](?:https?:)?//[^'"`\s]+""", texto))
+        extra = sorted(u for u in absolutas if u.lstrip("'\"`") not in ENLACES_PERMITIDOS)
+        check(f"web/{ruta.name}: sin URL absoluta salvo el enlace de la licencia", not extra, extra)
+    else:
+        chorros = re.findall(r"@import|url\(\s*['\"]?(?:https?:)?//", texto)
+        check(f"web/{ruta.name}: sin @import ni url() hacia otro dominio", not chorros, chorros)
+check("web: el HTML no carga scripts ni estilos externos", not re.search(r"<(?:script|link|img|iframe|source|video|audio)\b[^>]*\b(?:src|href)=\"(?:https?:)?//", (RAIZ / "web/index.html").read_text(encoding="utf-8")))
+
 # Los crudos no llegan al repositorio
 try:
     seguidos = subprocess.run(["git", "ls-files"], cwd=RAIZ, capture_output=True, text=True, check=True).stdout.splitlines()
